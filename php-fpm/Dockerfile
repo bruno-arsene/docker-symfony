@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
+MAINTAINER Bruno Arsene <arsene.bruno@gmail.com>
 
 ADD php.list /etc/apt/sources.list.d/
 
