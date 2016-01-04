@@ -21,6 +21,8 @@ php:
         - application
     links:
         - db
+    environment:
+        SYMFONY_ENV: dev
 nginx:
     build: nginx
     ports:
