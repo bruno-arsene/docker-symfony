@@ -19,6 +19,7 @@ php:
         - 9000:9000
     volumes_from:
         - application
+    working_dir: /var/www/symfony
     links:
         - db
     environment:
